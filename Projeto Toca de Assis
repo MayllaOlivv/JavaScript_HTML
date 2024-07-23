@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documento HTML5 Básico</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Projeto Toca de Assis</title>
 </head>
 
       <style>
@@ -37,7 +36,7 @@
         .button1 {
             background-color: gray;
             border: none;
-            color: white;
+            color: black;
             padding: 15px 32px;
             text-align: center;
             text-decoration: none;
@@ -50,7 +49,7 @@
         .button2 {
             background: none;
             border: none;
-            color: blue;
+            color: black;
             padding: 15px 32px;
             text-align: center;
             text-decoration: underline;
@@ -60,7 +59,7 @@
         }
 
         .button2:hover {
-            color: darkblue;
+            color: blue;
         }
 
         .image {
@@ -71,7 +70,6 @@
     </style>
 
 <body>
-
   <header>
     <h1> PROJETO TOCA DE ASSIS </h1>
        <nav>
@@ -115,6 +113,5 @@
             </ul>
         </nav>
     </aside>
-
 </body>
 </html>
