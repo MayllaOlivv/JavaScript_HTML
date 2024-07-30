@@ -1,0 +1,33 @@
+h1,
+p{
+    font-family: Arial, Helvetica, sans-serif; /* Aparecem várias pois se o navegador não carregar a primeira ele carrega a próxima */
+}
+
+body{
+background-color: #c9c9c9; /*começa sempre pelo fundo que fica mais fácil */
+}
+
+.box-container { /*mdn.box-container {} é utilizado para caso inserir bootstrap e ele tiver o mesmo elemento não ocorra interferência*/
+    display: block;
+    width: 868px;
+    height: 615px;
+    margin: 50px auto 0 auto; /*topo, direita,embaixo, esquerda(auto ajeita automaticamente)*/
+    border: 7px solid #3d0476 ; /*espessura, tipo e cor*/
+    border-radius: 23px;
+    background-color: white;  
+    text-align: center;
+}
+
+.box-container h1{
+    font-size: 96px;
+    font-weight: bold;
+    color: #3d0476;
+    text-transform: uppercase;
+    margin-top: 192px;
+}
+
+.box-container p{
+    font-size: 40px;
+    font-weight: normal;
+    color: #4b4b4b;
+}
